@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  header nav ul li:hover {
+    font-size: 20px;
+  }
+  
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  header nav ul li a:hover{
+    color: #84948A;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #about{
+    background-color: #DDBC95;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  #menu{
+    background-color: #B38867;
+  }
+
+  .menu-items {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-item {
+    width: 30%;
+  }
+  
+  .menu-item h3 {
+    font-size: 24px;
+  }
+
+  .menu-image{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .menu-image img{
+    width: 100%;
+    max-height: 210px;
+    border-radius: 10px;
+  }
+  .menu-item p {
+    font-size: 16px;
+  }
+
+  #gallery{
+    background-color: #DDBC95;
+  }
+
+  .gallery-images {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .gallery-images img {
+    width: 30%;
+    border-radius: 10px;
+  }
+  
+  #contact{
+    background-color: #B38867;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
